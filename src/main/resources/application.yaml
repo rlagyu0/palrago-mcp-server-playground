@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: mcp-server
+  ai:
+    mcp:
+      server:
+        version: 1.0.0
+        name: mcp-server
+
+
+openai:
+  api-key: ${OPENAI_API_KEY:}

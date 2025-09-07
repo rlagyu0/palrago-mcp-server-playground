@@ -7,6 +7,10 @@ import org.springframework.context.annotation.Configuration
 
 @Configuration
 class MCP {
+
+
+
+
     fun palragoTools(palragoService: PalragoService): ToolCallbackProvider {
         return MethodToolCallbackProvider.builder().toolObjects(palragoService).build();
     }
